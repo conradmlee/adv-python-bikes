@@ -19,14 +19,14 @@ For this purpose, we have structured the project into the following steps:
 
 ## Data
 
-The dataset comes from the Kaggle competition: "Bike Sharing in Washington D.C. Dataset: Rental bikes in 2011 and 2012 with corresponding weather and seasonal info." The data is contained in two files: hour.csv and day.csv.
+The data comes from the Kaggle competition: "Bike Sharing in Washington D.C. Dataset: Rental bikes in 2011 and 2012 with corresponding weather and seasonal info." The data is contained in two files: hour.csv and day.csv.
 
-Acknowledgements: Hadi Fanaee-T Laboratory of Artificial Intelligence and Decision Support (LIAAD), University of Porto INESC Porto, Campus da FEUP Rua Dr. Roberto Frias, 378 4200 - 465 Porto, Portugal
+Acknowledgements: Hadi Fanaee-T Laboratory of Artificial Intelligence and Decision Support (LIAAD), University of Porto INESC Porto, Campus da FEUP Rua Dr. Roberto Frias, 378 4200 - 465 Porto, Portugal.
 
 Link: https://www.kaggle.com/marklvl/bike-sharing-dataset/home
 
 ## Content
-Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
+Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv:
 
 - instant: Record index
 - dteday: Date
