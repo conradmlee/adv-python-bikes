@@ -1,8 +1,9 @@
 # Advanced Python: Bike Sharing analysis using Dask 
-Analysis of Bike Sharing dataset using Dask data structures and ecosystem (instead of Pandas).
+Analysis of Bike Sharing in Washington D.C. dataset using Dask data structures and ecosystem (instead of Pandas).
 
 ## Introduction
-The goal of this assignment is to predict the total count of bike rentals during each hour. This notebook explains how we can explore and prepare the data for model building. For this purpose, we have structured the project into the following steps:
+The goal of this assignment is to predict the total count of bike rentals during each hour. This notebook explains how we can explore and prepare the data for model building.
+For this purpose, we have structured the project into the following steps:
 
 1. Data Summary
 2. Feature Engineering: Part I
@@ -37,10 +38,10 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 - weekday: Day of the week
 - workingday: If day is neither weekend nor holiday is 1, otherwise is 0.
 - weathersit: (extracted from Freemeteo)
- - 1: Clear, Few clouds, Partly cloudy, Partly cloudy
- - 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
- - 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
- - 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+1: Clear, Few clouds, Partly cloudy, Partly cloudy
+2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
 - temp: Normalized temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (only in hourly scale)
 - atemp: Normalized feeling temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-16, t_max=+50 (only in hourly scale)
 - hum: Normalized humidity. The values are divided to 100 (max)
