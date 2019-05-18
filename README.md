@@ -3,6 +3,7 @@ Analysis of Bike Sharing in Washington D.C. dataset using Dask data structures a
 
 ## Introduction
 The goal of this assignment is to predict the total count of bike rentals during each hour. This notebook explains how we can explore and prepare the data for model building.
+
 For this purpose, we have structured the project into the following steps:
 
 1. Data Summary
@@ -16,6 +17,11 @@ For this purpose, we have structured the project into the following steps:
 9. Decision Tree
 10. Random Forest Regression
 11. XGBoost
+
+## Instructions
+
+1. Run the bash file "load.sh" in command line (should work for both Windows and Mac/Linux) which will automatically download and extract the dataset from Kaggle.
+2. Run the bikesharing.ipynb Jupyter notebook, which contains the Dask analysis.
 
 ## Data
 
