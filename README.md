@@ -2,20 +2,32 @@
 Analysis of Bike Sharing in Washington D.C. dataset using Dask data structures and ecosystem (instead of Pandas).
 
 ## Introduction
-The goal of this assignment is to predict the total count of bike rentals during each hour. This notebook explains how we can explore and prepare the data for model building.
+
+The objective is to perform an analysis of the Bike Sharing in DC dataset using Dask data structures and ecosystem. The purpose of using Dask is to implement a parallel computing system in Python. The primary components of Dask that we will be using include: Dask DataFrames, distributed.Client (working with Future objects), and Dask-ML (to run distributed ML algorithms and hyperparameter tuning). We will also be making use of the Kaggle API to perform an automatically download of the dataset (instead of hosting the data directly on Github which is typically considered bad practice).
+
+The goal of the original Bike Sharing analysis is to predict the total count of bike rentals during each hour. This notebook explains how we can explore and prepare the data for model building.
+
 For this purpose, we have structured the project into the following steps:
 
-1. Data Summary
-2. Feature Engineering: Part I
-3. Missing Value Analysis
-4. Exploratory data analysis
-5. Outlier Analysis
-6. Correlation Analysis
-7. Feature Engineering: Part II
-8. Linear Regression Model
-9. Decision Tree
-10. Random Forest Regression
-11. XGBoost
+1. Load Libraries
+2. Load Dataset
+3.	Data Summary
+4.	Feature Engineering: Part I
+5.	Missing Value Analysis
+6.	Exploratory data analysis 
+7.	Outlier Analysis
+8.	Correlation Analysis
+9. Feature Engineering: Part II
+10. Train Test Split
+11.	Linear Regression Model
+12.	Decision Tree
+13.	Random Forest Regression
+14.	XGBoost
+
+## Instructions
+
+1. Run the bash file "load.sh" in command line (should work for both Windows and Mac/Linux) which will automatically download and extract the dataset from Kaggle.
+2. Run the bikesharing.ipynb Jupyter notebook, which contains the Dask analysis.
 
 ## Data
 
@@ -23,7 +35,9 @@ The data comes from the Kaggle competition: "Bike Sharing in Washington D.C. Dat
 
 Acknowledgements: Hadi Fanaee-T Laboratory of Artificial Intelligence and Decision Support (LIAAD), University of Porto INESC Porto, Campus da FEUP Rua Dr. Roberto Frias, 378 4200 - 465 Porto, Portugal.
 
-Link: https://www.kaggle.com/marklvl/bike-sharing-dataset/home
+Kaggle API: https://github.com/Kaggle/kaggle-api
+
+Bike Sharing Dataset: https://www.kaggle.com/marklvl/bike-sharing-dataset/home
 
 ## Content
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv:
